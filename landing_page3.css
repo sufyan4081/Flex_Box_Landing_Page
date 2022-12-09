@@ -1,0 +1,115 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("pic/cafe.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	overflow-x: hidden;
+
+	
+}
+ img
+{
+	height: 100px;
+	width: auto;
+	position: absolute; 
+	float: left;
+	margin: 20px 20px;
+}
+.list 
+{
+	float: right;
+}
+.list ul li
+{
+	display: inline-block;
+	margin: 40px 15px;
+	font-size: 20px;
+	word-spacing: 5px;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+
+}
+.list ul li:hover{
+	border-bottom: 2px solid violet;
+
+}
+.clearfix:after
+{
+	visibility: hidden;
+	height: 0px;
+	content: ".";
+	display: block;
+	clear: both;
+}
+.main-content {
+	position: absolute;
+	top:40%;
+	width: 100%;
+	margin-left: 50%;
+
+
+}
+.main-content{
+	/*text-align: right;*/
+	float: right;
+}
+.main-content h1{
+	color: #fff;
+	/*float: right;*/
+	margin-right:10%;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+
+}
+.main-content a{
+	
+	/*float: right;*/
+	margin-right:10%;
+	word-spacing: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	border: 1px solid violet;
+	border-radius: 30px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+}
+.btn1{
+	color: violet;
+}
+.btn2{
+	margin-left: -35px;
+}
+.btn2{
+	color: #fff;
+}
+.btn1:hover{
+	background-color: #fff;
+}
+.btn2:hover{
+	background-color: violet;
+}
+span{
+	animation:sample 2s infinite ;
+}
+@keyframes sample
+{
+	0%{color: #fff;}
+	25%{color: #d79ef2;}
+	50%{color: #a25df7;}
+	100%{color: violet;}
+}
+.animate__slideInDown{
+	animation: slideInDown;
+}
